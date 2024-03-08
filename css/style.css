@@ -7,10 +7,69 @@ body{
     font-family: Verdana;
     background-color: black;
 }
-
-h1 .title {
+/*HEADER*/
+.header-main {
 font-weight: normal;
 font-size: 50px;
 color: white;
-position: relative;
-display: center;
+}
+
+.link-cta {
+    color: aquamarine;
+    font-size: 16px;
+    position: relative;
+    top: 25px;
+}
+.video {
+    position: relative;
+    top: 50px;
+}
+/*MAIN*/
+.main {
+   position: relative;
+   top: 50px;
+
+}
+.main  h2{
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+.main h4 {
+    font-size: 21px;
+    color: gray;
+    position: relative;
+    top: 25px;
+}
+.main-image{
+    position: relative;
+    top: 35px;
+}
+.main-icon {
+    position:relative;
+    top: 50px;
+}
+/* FOOTER*/
+.footer h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+.footer p {
+    position: relative;
+    top: 50px;
+}
+.footer a{
+    color: aquamarine;
+    font-size: 16px;
+}
+.footer-copyright {
+    color: gray;
+    font-size: 16px;
+    text-align: right;
+    position: relative;
+    top: 285px;
+}
+
